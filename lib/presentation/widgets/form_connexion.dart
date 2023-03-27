@@ -137,7 +137,7 @@ class _MyFormulaireState extends State<MyFormulaire> {
                       endpoint: urlregistrer, 
                       queryBody: modele.toMap(), 
                       headerContentType: "application/json", 
-                      headerAccept: "/");
+                      headerAccept: "*/*");
                   ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(content: Text('Processing Data')),
                 );
