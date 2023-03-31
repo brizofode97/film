@@ -125,7 +125,6 @@ class _MyFormulaireState extends State<MyFormulaire> {
             ElevatedButton(
               onPressed: () {
                 if (_formKey.currentState!.validate()) {
-                  print('valeur de idenifiant ${widget.role} - ${valPrenom.text} - ${valNom.text} - ${valNomUtilisateur.text} - ${valEmail.text}');
                   InscriptionModele modele = InscriptionModele( 
                     firstName: valPrenom.text, 
                     lastName: valPrenom.text, 
